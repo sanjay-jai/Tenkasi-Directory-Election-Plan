@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --color-brand-primary: #059669;    /* Vibrant Emerald */
+  --color-brand-secondary: #0891b2;  /* Vibrant Cyan */
+  --color-brand-accent: #f59e0b;     /* Warm Amber */
+  --color-brand-dark: #064e3b;       /* Deep Forest */
+}
+
+body {
+  @apply bg-[#f8fafc] text-slate-900 antialiased;
+}
